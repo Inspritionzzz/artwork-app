@@ -6,11 +6,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @MapperScan("com.csc.modules.ums.mapper")
-public class CrmSightApplication {
+public class ArtWorkApplication {
 
     public static void main(String[] args) {
         System.out.println("just a test");
-        SpringApplication.run(CrmSightApplication.class, args);
+        SpringApplication.run(ArtWorkApplication.class, args);
     }
 
 }
