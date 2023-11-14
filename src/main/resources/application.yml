@@ -1,7 +1,7 @@
 # 配置postgre
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/crmsight
+    url: jdbc:postgresql://localhost:5432/artwork
     username: postgres
     password: 100037
     driver-class-name: org.postgresql.Driver

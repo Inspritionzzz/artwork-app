@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.csc.modules.ums.mapper")
+@MapperScan("com.bupt.modules.ums.mapper")
 public class ArtWorkApplication {
 
     public static void main(String[] args) {

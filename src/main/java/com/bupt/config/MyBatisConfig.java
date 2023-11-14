@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  */
 @Configuration
 @EnableTransactionManagement
-@MapperScan(basePackages = {"com.crm.modules.ums.mapper"})
+@MapperScan(basePackages = {"com.bupt.modules.ums.mapper"})
 public class MyBatisConfig {
     @Bean
     public PaginationInterceptor paginationInterceptor() {
