@@ -10,6 +10,7 @@ public class ArtWorkApplication {
 
     public static void main(String[] args) {
         System.out.println("just a test");
+        System.out.println("just a test");
         SpringApplication.run(ArtWorkApplication.class, args);
     }
 
